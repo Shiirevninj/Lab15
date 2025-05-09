@@ -7,7 +7,7 @@ public class MultiplicationTest {
     @Test
     public void testMultiplyPositive() {
         Multiplication calc = new Multiplication();
-        assertEquals(6.0, calc.multiply(2.0, 3.0), 0.0001);
+        assertEquals(6.0, calc.multiply(2.0, 2.0), 0.0001);
     }
 
     @Test
